@@ -1,0 +1,100 @@
+body {
+  background-color: goldenrod;
+}
+
+.headingContainer {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+
+.airplaneVector {
+  width: 100px; /* Adjust width of the image as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adjust spacing between image and header */
+}
+
+.headerText {
+  margin: 40px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#containerSearch {
+  margin-bottom: 10px;
+}
+
+.cityName {
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.saveButton {
+  margin: 10px;
+}
+
+.container-row {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+#container1 {
+  flex: 1;
+  border: 2px;
+  border-color: black;
+  margin: 5px;
+  padding: 10px;
+}
+
+#container2 {
+  flex: 1;
+  border: 2px;
+  border-color: black;
+  margin: 5px;
+  padding: 10px;
+}
+
+#container3 {
+  flex: 1;
+  border: 2px;
+  border-color: black;
+  margin: 5px;
+  padding: 10px;
+}
+
+#container4 {
+  flex: 1;
+  border: 2px;
+  border-color: black;
+  margin: 5px;
+  padding: 10px;
+}
+
+#container5 {
+  flex: 1;
+  border: 2px;
+  border-color: black;
+  margin: 5px;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#savedContainer-row {
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

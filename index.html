@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+</head>
+
+<header class="headingContainer">
+    <img src="Assets\Images\airplane icon.png" alt="picture on side" class="airplaneVector">
+<h1 class="headerText">Travel Weather</h1> 
+</header>
+
+<body>
+    <main>
+            <div id="containSearch">
+                <div id="search">
+                    <label for="searchInput">Find <i class="fa fa-search"></i>City</label>
+                    <input id="searchInput" type="text" placeholder="Search">
+                    <button class="find" onclick="getAPI()">Search</button>
+                    </div>
+          
+                    <div class="searchWeather">
+                    </div>
+
+
+            <div id="weatherDays" class="container-row">
+                <h2 class="countryName"></h2>
+                <div id="container1" class= "container">
+                <h4 class = "date1"></h4>
+                <div class="day1"></div>
+                <div class="Temp1"></div>
+                <div class="humidity1"></div>
+                <img class="weather1"></img>
+                <div class="windSpeed1"></div>
+            </div>
+                <div id="container2" class= "container">
+                <h4 class = "date2"></h4>
+                <div class="day2"></div>
+                <div class="Temp2"></div>
+                <div class="humidity2"></div>
+                <img class="weather2"></img>
+                <div class="windSpeed2"></div>
+            </div>
+                <div id="container3" class= "container">
+                <h4 class = "date3"></h4>
+                <div class="day3"></div>
+                <div class="Temp3"></div>
+                <div class="humidity3"></div>
+                <img class="weather3"></img>
+                <div class="windSpeed3"></div>
+            </div>
+                <div id="container4" class= "container">
+                <h4 class = "date4"></h4>
+                <div class="day4"></div>
+                <div class="Temp4"></div>
+                <div class="humidity4"></div>
+                <img class="weather4"></img>
+                <div class="windSpeed4"></div>
+            </div>
+                <div id="container5" class= "container">
+                <h4 class = "date5"></h4>
+                <div class="day5"></div>
+                <div class="Temp5"></div>
+                <div class="humidity5"></div>
+                <img class="weather5"></img>
+                <div class="windSpeed5"></div>
+            </div>
+            </div>
+                  
+                <script src="./Assets/script.js"></script>
+</body>
+</main>
