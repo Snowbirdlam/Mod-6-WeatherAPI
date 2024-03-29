@@ -1,0 +1,35 @@
+# Weather API
+
+## Description
+
+This applications purpose is to help travellers compare weather information between cities traveled to. It will help travellers to better prepare for their travels in an easy to read format.
+
+## Installation
+
+N/A
+
+## Usage
+
+![alt text]("Assets\Images\Screenshot 2024-03-29 082359.png")
+First, search the city in the searchbar where you want to go.
+
+![alt text]("Assets\Images\Screenshot 2024-03-29 082446.png")
+When the city is searched, the button with the city name will appear beneath the search bar. The 5-day forecast will also appear.
+
+![alt text]("Assets\Images\Screenshot 2024-03-29 082533.png")
+![alt text]("Assets\Images\Screenshot 2024-03-29 082553.png")
+When you search another city another button with the city will appear beside the previous one.
+
+![alt text]("Assets\Images\Screenshot 2024-03-29 083436.png")
+If you refresh the page, the city buttons will still be there since it was stored in local storage.
+
+![alt text]("Assets\Images\Screenshot 2024-03-29 083447.png")
+If you press the button with the city name, the five-day forecast for that city will appear.
+
+## Credits
+
+I credit this work to my tutor Andrew Hardemon for helping me through linking my code to the api, reasoning thorugh the javascript, and making sure my buttons work. The T.A. Robert Johnson also helped me with figuring out a more efficient layout of my website. Jaytee Padilla also helped me troubleshoot some issues I had with the code.
+
+## License
+
+Please refer to the LICENSE in the repo.
