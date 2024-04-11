@@ -40,7 +40,7 @@ function getAPI(city) {
     return;
   }
 
-  const requestCity = `http://api.openweathermap.org/data/2.5/forecast?q=${cityName}&units=imperial&appid=64628cb92ba6fdcb031f5b980e145cff`;
+  const requestCity = `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&units=imperial&appid=64628cb92ba6fdcb031f5b980e145cff`;
 
   const cityDisplay = document.getElementById("Container");
   const fiveDayForecast = document.getElementById("5D-row");
